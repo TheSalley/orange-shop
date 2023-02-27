@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<import src="../../templates/group.wxml"></import>
+<view class="container">
+  <search_com></search_com>
+  <template is="group" data="{{data: data1}}"></template>
+  <template is="group" data="{{data: data2}}"></template>
+</view>

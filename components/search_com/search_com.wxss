@@ -1,0 +1,48 @@
+/* components/search_com/search_com.wxss */
+.search_com_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  padding: 20rpx;
+}
+
+.address_box {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+}
+
+.user_address {
+  white-space: nowrap;
+}
+
+.search_box {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  align-items: center;
+  border: 6rpx solid #fbe842;
+  border-radius: 50rpx;
+  color: #c8c9cc;
+}
+
+.searh_placeholder_box {
+  display: flex;
+  align-items: center;
+}
+
+.search_btn {
+  color: #000;
+  background-color: #fbe842;
+  display: block;
+  padding: 10rpx 20rpx;
+  border-radius: 30rpx;
+}
+
+image {
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,14 @@
+<!--components/search_com/search_com.wxml-->
+<view class="search_com_container">
+  <view class="address_box">
+    <text class="user_address">{{ address }}</text>
+    <image src="/static/images/定位.png"></image>
+  </view>
+  <view class="search_box">
+    <view class="searh_placeholder_box">
+      <image src="/static/images/放大镜.png"></image>
+      <text>请输入搜索关键词</text>
+    </view>
+    <text class="search_btn">搜索</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "search_com": "/components/search_com/search_com"
+  }
+}

@@ -1,0 +1,10 @@
+<template name="group">
+  <view class="group_box" style="background-color: {{data.bg}};">
+    <image src="{{data.icon}}"></image>
+    <view class="center_box">
+      <text>{{data.title}}</text>
+      <text>{{data.message}}</text>
+    </view>
+    <image src="{{data.arrow}}"></image>
+  </view>
+</template>
